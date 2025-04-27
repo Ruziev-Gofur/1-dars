@@ -1,0 +1,41 @@
+/* O'lchov birliklari */
+/* Units, Turlari */
+
+/* Units - CSS xossasining o'lchovini bildiradi */
+
+/* Turlari
+
+Absolute (mutloq) - o'lchov birligi qanday ko'rsatilgan bo'lsa huddi shunday ekranga chiqadi. Absoluteni ishlatish tafsiza qilinmaydi
+
+px
+cm
+mm
+in
+in ≈ 2.54 cm
+pt
+1 pt = 1/72 in
+1in = 2.54cm = 25.4mm = 72pt = 96px
+
+Relative (nisbiy) - Turli xil ekranlarga moslashishi mumkin
+
+%
+em
+rem
+vw va vh (viewport units)
+
+*/
+
+/* % */
+
+.fixed-box {
+    position: fixed;
+    width: 50%;
+    padding: 10%;
+    height: 200px;
+    background-color: red;
+}
+
+/* h1 {
+    background-color: red;
+    width: 50%;
+} */
